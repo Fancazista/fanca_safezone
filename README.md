@@ -49,6 +49,11 @@ Explore the possibilities and tailor your server experience with these powerful 
 
 <strong>Remember that anything is possible, as long as you want to do it!</strong> Add new features using the examples you already find in the resource.
 
+## Install
+1. Download the latest released version of the resource from [here](https://github.com/Fancazista/fanca_safezone/releases/latest).
+2. Extract the contents of the archive (the `fanca_safezone` folder) into your `resources` folder.
+3. Add `start fanca_safezone` in your `server.cfg`.
+
 ## Contributing
 #### Creating A Pull Request
 
