@@ -17,7 +17,7 @@
   <br/>
   <br/>
   
-  <a href="https://fancadev.gitbook.io/fanca-dev-documentation/free-resources/safe-zone"><strong>Explore the docs</strong></a>, 
+  <a href="https://docs.fanca.live/free-resources/safe-zone"><strong>Explore the docs</strong></a>, 
   <a href="https://github.com/Fancazista/fanca_safezone/issues"><strong>report a bug</strong></a>,
   <a href="https://github.com/Fancazista/fanca_safezone/issues"><strong>request a feature</strong></a>
 </div>
