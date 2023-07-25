@@ -8,7 +8,7 @@
   <br/>
   
   <img alt="downloads" src="https://img.shields.io/github/downloads/Fancazista/fanca_safezone/total.svg">
-  <img alt="license" src="https://img.shields.io/github/license/Fancazista/fanca_safezone.png">
+  <img alt="license" src="https://img.shields.io/github/license/Fancazista/fanca_safezone">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/Fancazista/fanca_safezone">
   <img alt="issues" src="https://img.shields.io/github/issues/Fancazista/fanca_safezone.png">
   <br/>
