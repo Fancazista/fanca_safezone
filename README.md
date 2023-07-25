@@ -7,10 +7,10 @@
   <br/>
   <br/>
   
-  <img alt="downloads" src="https://img.shields.io/github/downloads/Fancazista/fanca_safezone/total.svg">
-  <img alt="license" src="https://img.shields.io/github/license/Fancazista/fanca_safezone">
-  <img alt="last commit" src="https://img.shields.io/github/last-commit/Fancazista/fanca_safezone">
-  <img alt="issues" src="https://img.shields.io/github/issues/Fancazista/fanca_safezone.png">
+<img alt="release" src="https://img.shields.io/github/release/Fancazista/fanca_safezone">
+<img alt="license" src="https://img.shields.io/github/license/Fancazista/fanca_safezone">
+<img alt="last commit" src="https://img.shields.io/github/last-commit/Fancazista/fanca_safezone.png">
+<img alt="issues" src="https://img.shields.io/github/issues/Fancazista/fanca_safezone.png">
   <br/>
   <a target="_blank" href="https://discord.gg/2JTRHrMs4m"><img src="https://discordapp.com/api/guilds/810056325623054336/widget.png?style=banner2" alt="Discord banner"/></a>
   
