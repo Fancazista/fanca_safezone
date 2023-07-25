@@ -9,7 +9,7 @@
   <img alt="Repository downloads counter" src="https://img.shields.io/github/downloads/Fancazista/fanca_safezone/total.svg">
   <img alt="Issues counter" src="https://img.shields.io/github/issues/Fancazista/fanca_safezone">
   <br/>
-  <img src="https://discordapp.com/api/guilds/810056325623054336/widget.png?style=banner2" alt="Discord banner"/>
+  <a target="_blank" href="https://discord.gg/2JTRHrMs4m"><img src="https://discordapp.com/api/guilds/810056325623054336/widget.png?style=banner2" alt="Discord banner"/></a>
   
   <br/>
   <br/>
@@ -61,7 +61,7 @@ Explore the possibilities and tailor your server experience with these powerful 
 
 ## Support
 <div align="center">
-  <img src="https://discordapp.com/api/guilds/810056325623054336/widget.png?style=banner4" alt="Discord banner"/>
+  <a target="_blank" href="https://discord.gg/2JTRHrMs4m"><img src="https://discordapp.com/api/guilds/810056325623054336/widget.png?style=banner4" alt="Discord banner"/></a>
   
   <h3>For any problem join my discord server and contact me there by opening a ticket!</h3>
 </div>
