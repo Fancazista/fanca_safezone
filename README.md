@@ -80,4 +80,4 @@ The [OX Lib](https://github.com/overextended/ox_lib/releases/latest) resource is
 </div>
 
 ## License
-Distributed under the MIT License. See [LICENSE](https://github.com/Fancazista/fanca_safezone/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Fancazista/fanca_safezone/blob/main/LICENSE) for more information.
