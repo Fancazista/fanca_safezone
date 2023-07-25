@@ -1,4 +1,6 @@
 <div align="center">
+  <img alt="wallpaper" src="https://i.imgur.com/awt1uN3.jpg" width="450" height="280">
+  
   <h3 align="center">FANCA Safe Zone</h3>
   Enhance your FiveM server's gameplay with fanca_safezone, providing seamless control over various gameplay aspects within designated safezones.
 
@@ -24,6 +26,8 @@
 ## Table Of Contents
 * [About the Resource](#about-the-resource)
 * [Features](#features)
+* [Dependencies](#dependencies)
+* [Install](#install)
 * [Contributing](#contributing)
 * [Support](#support)
 * [License](#license)
@@ -48,6 +52,9 @@ Explore the possibilities and tailor your server experience with these powerful 
 * <strong>As many zones as you want</strong>: You can create as many zones as you want, where you want and with the settings you want. In fact, you will be able to define the types of zones and subsequently the positions of the zones with their own typology.
 
 <strong>Remember that anything is possible, as long as you want to do it!</strong> Add new features using the examples you already find in the resource.
+
+## Dependencies
+The [OX Lib](https://github.com/overextended/ox_lib/releases/latest) resource is needed for the script to work.
 
 ## Install
 1. Download the latest released version of the resource from [here](https://github.com/Fancazista/fanca_safezone/releases/latest).
