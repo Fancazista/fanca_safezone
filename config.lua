@@ -10,6 +10,13 @@ Config.CollisionAlpha = 110
 Config.afkDropMessage = "You got kicked from the server for: AFK in safe zone."
 Config.afkNotifyTimes = {2, 3, 6, 10}
 
+Config.disarmPlayer = function()
+    -- Uncomment the system you want to use. If you use the ox inventory uncomment the event, otherwise uncomment the GTA default system.
+
+    TriggerEvent("ox_inventory:disarm", true) -- ox_inventory
+    -- SetCurrentPedWeapon(cache.ped, `WEAPON_UNARMED`, true) -- default system
+end
+
 Config.Types = {
     ['test1'] = {
         logJoinAndExit = true,
@@ -17,27 +24,11 @@ Config.Types = {
         disablePlayerShoot = true,
         disableWeapon = true,
         disableVehicle = false,
-        limitVehicleSpeed = 50 / kmh,
+        limitVehicleSpeed = 0 / kmh,
         disableJump = true,
         disableCollision = {
             peds = true,
             vehicles = true
-        },
-        notifyAFK = true,
-        kickIfAFK = 180,
-    },
-
-    ['test2'] = {
-        logJoinAndExit = true,
-        notifyPlayer = true,
-        disablePlayerShoot = false,
-        disableWeapon = true,
-        disableVehicle = false,
-        limitVehicleSpeed = 0 / kmh,
-        disableJump = false,
-        disableCollision = {
-            peds = false,
-            vehicles = false
         },
         notifyAFK = false,
         kickIfAFK = 0,
@@ -66,44 +57,5 @@ Config.Zones = {
             },
             thickness = 23.8,
         }
-
-        -- box = {
-        --     coords = vec3(238.0, -773.0, 35.0),
-        --     size = vec3(89, 50.0, 25.0),
-        --     rotation = 70.0,
-        -- }
-
-        -- sphere = {
-        --     coords = vec3(227.6967010498, -788.95385742188, 30.678344726562),
-        --     radius = 25,
-        -- }
-
-        -- point = {
-        --     coords = vec3(227.6967010498, -788.95385742188, 30.678344726562),
-        --     distance = 15.0,
-        -- }
-    },
-
-    ['Central square'] = {
-        type = "test2",
-        debug = false,
-
-        blip = {
-            label = "Safe zone",
-            display = 2,
-            id = 461,
-            color = 66,
-            scale = 0.8,
-        },
-
-        poly = {
-            points = {
-                vec3(262.0, -872.0, 29.0),
-                vec3(185.0, -844.0, 29.0),
-                vec3(132.0, -988.0, 29.0),
-                vec3(210.60000610352, -1015.5, 29.0),
-            },
-            thickness = 20.0,
-        }
-    },
+    }
 }

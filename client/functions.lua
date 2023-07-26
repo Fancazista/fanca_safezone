@@ -225,8 +225,9 @@ function Inside(self)
     end
 
     if self.zonetype.disableWeapon then
-        if GetCurrentPedWeapon(cache.ped, true) then
-            TriggerEvent("ox_inventory:disarm", true)
+        local _, weaponHash = GetCurrentPedWeapon(cache.ped, true)
+        if weaponHash ~= `WEAPON_UNARMED` then
+            Config.disarmPlayer()
             notify("You cannot hold a weapon in a safe zone.", "error")
         end
     end
