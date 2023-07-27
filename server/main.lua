@@ -26,7 +26,7 @@ AddEventHandler("fanca_safezone:log", function(zoneName, what, insideZoneTime)
         return
     end
 
-    print(("^0[^5%s^0] ^0Player %d in zone %s."):format(what, player, zoneName))
+    print(("^0[^5%s^0] ^0Player %d in zone %s (time=%s)."):format(what, player, zoneName, tostring(insideZoneTime)))
 end)
 
 RegisterNetEvent("fanca_safezone:kick")

@@ -10,7 +10,7 @@ tebex "https://fanca.tebex.io/"
 
 name 'fanca_safezone'
 description "Safe zone script"
-version '1.0.0'
+version '1.1.0'
 download "https://github.com/Fancazista/fanca_safezone/"
 
 shared_scripts {

@@ -16,6 +16,7 @@ CreateThread(function()
 
         if zoneData.poly then
             defaultZoneCreate.inside = Inside
+            defaultZoneCreate.coords = GetCenterPoint(zoneData.poly.points)
             defaultZoneCreate.points = zoneData.poly.points
             defaultZoneCreate.thickness = zoneData.poly.thickness
 
@@ -46,10 +47,6 @@ CreateThread(function()
         if zoneData.blip then
             local coords = defaultZoneCreate.coords
 
-            if zoneData.poly then
-                coords = getCenterPoint(zoneData.poly.points)
-            end
-
             local blip = AddBlipForCoord(coords.x, coords.y, coords.z)
 
             SetBlipDisplay(blip, zoneData.blip.display)
@@ -62,4 +59,6 @@ CreateThread(function()
             EndTextCommandSetBlipName(blip)
         end
     end
+
+    SetGhostedEntityAlpha(Config.ghostedEntitiesAlpha)
 end)
